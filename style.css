@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: #fd6569;
+    padding: 10px;
+}
+.container{
+ 
+    padding: 10px;
+    
+}
+.book-container h2{
+    color: #fd6569;
+
+}
+.book-container{
+    width:25% ;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 30px;
+    background-color: black;
+    color: white;
+    vertical-align: top;
+    display: inline-block;
+    
+}
+.book-container button{
+    background-color: #fd6569;
+    border-radius: 10px;
+    border: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+    color: black;
+}
+.plusbutton{
+    background-color: #fd6569;
+    color: black;
+    border-radius: 100%;
+    border: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 40px;
+    bottom: 30px;
+    right: 30px;
+    position: fixed;
+}
+.overlay{
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 0.8;
+    display: none;
+
+}
+.box{
+    background-color: #fd6569;
+    width: 30%;
+    padding: 40px;
+    border-radius: 10px;
+    position: absolute;
+    top: 20%;
+    z-index: 2;
+    left: 30%;
+    display: none;
+}
+.box input{
+    background: transparent;
+    border: none;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border-bottom: solid black 2px;
+}
+.box textarea{
+    background: transparent;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border: solid black 2px;
+}
+.box input::placeholder
+{
+    color: black;
+}
+.box textarea::placeholder
+{
+    color: black;
+}
+.box button{
+    background-color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    margin: 5px;
+    border: none;
+}
+.box input:focus{
+    outline: none;
+}
+.box textarea:focus{
+    outline: none;
+}
